@@ -3,7 +3,7 @@ current_path <-dirname(dirname(rstudioapi::getSourceEditorContext()$path))
 setwd(current_path)
 rm(current_path)
 
-#Proprocessing iniziale del dataset
+#Preprocessing iniziale del dataset
 source("R_Script/Preprocessing.R")
 Preprocessing()
 #Rimozione funzione Processing
@@ -78,7 +78,7 @@ rownames(resultMes)= c("Accuracy (test) ", "Accuracy (10-fold cv)", "Precision",
 TitleOfResultData=gsub(":", ";",((as.character(paste("Result/", as.character(timeState),".xlsx", sep = "")))))
 write.xlsx(resultMes, TitleOfResultData,col.names = TRUE, row.names = TRUE, append = FALSE)
 
-#Salvo imagine workspace
+#Salvo immagine workspace
 save.image(file = "Image_Workspace/ImgWorkspace.RData")
 #comando per caricare Image_workspace
 #load(file = "Image_Workspace/ImgWorkspace.RData")
