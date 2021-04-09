@@ -10,7 +10,7 @@ Per avviare il progetto avviare il filre Start.R situato nella cartella R_Script
 
 Struttura del progetto:
 
-"Dataset" cartella contentente i vari dataset lavorati
+"Dataset" cartella contentente i vari dataset
 	HTRU_2 dataset iniziale
 	DatasetTrainset dataset creato prima della lavorazione in modo proporzionato per il trainset (70%)
 	DatasetTestset dataset creato prima della lavorazione in modo proporzionato per il testset (30%)
