@@ -21,7 +21,7 @@ Preprocessing <- function()
   #convert to write
   DatasetPcaTrainSet=data.frame(DatasetPcaTrainSet)
   DatasetPcaTestSet=data.frame(DatasetPcaTestSet)
-  #renama della variabile HTRU2 in pulsar
+  #rename della variabile HTRU2 in pulsar
   colnames(data)[9]= "PULSAR"
   #save dataset , uso la liberia readr per evitar di salvare l'index
   write_csv(data, "Dataset/Dataset.csv")
