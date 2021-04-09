@@ -25,12 +25,12 @@ NeuralNetwork3PCA <- function(trainset, testset) {
   startTime=Sys.time() #orario inizio
   predictTest=predict(model$finalModel, testset, type = "class")
   endTim=Sys.time() #orari fine
-  timeOccPredictTest=endTim-startTime # tempo inpiegato
+  timeOccPredictTest=endTim-startTime # tempo impiegato
   #predict sul trainset
   startTime=Sys.time() #orario inizio
   predictTrain=predict(model$finalModel, trainset, type = "class")
   endTim=Sys.time() #orari fine
-  timeOccPredictTrain=endTim-startTime # tempo inpiegato
+  timeOccPredictTrain=endTim-startTime # tempo impiegato
   
   #accuratezza e media
   accuracyCV=model$resample['Accuracy']$Accuracy
