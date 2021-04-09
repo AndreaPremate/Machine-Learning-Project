@@ -20,10 +20,6 @@ Struttura del progetto:
 
 "Graph" cartella contente i grafici creati in automatico
 
-"Image_Workspace" cartella contente l'imagine salvata a fine del ultima run
-
-"ModelRDS" cartella contente i modelli salvati in estensione RDS
-
 "R_Script" cartella contente i script
 	CreateGraphic- script per creare i vari grafici
 	DecisionTree- script per creare i modelli dei alberi
