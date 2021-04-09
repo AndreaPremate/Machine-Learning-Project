@@ -28,6 +28,6 @@ Struttura del progetto:
 	Preprocessing- script di preprocessing
 	Start- script di avvio
 
-"Result" cartella contente i risultati dei modelli(salvate in base al orario di fine esecuzione) 
+"Result" cartella contente i risultati dei modelli(salvate in base all'orario di fine esecuzione) 
 	
-"Time_Spent_Model" cartella contente i risultati temporali dei modelli(salvate in base al orario di fine esecuzione) 
+"Time_Spent_Model" cartella contenente i risultati temporali dei modelli(salvate in base all'orario di fine esecuzione) 
