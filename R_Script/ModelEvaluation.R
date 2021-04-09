@@ -10,7 +10,7 @@ ModelEvaluation <- function(pred, lab, model_name)
   matricePredict=table(pred, lab)
   confusionMat= confusionMatrix(matricePredict, positive="1")
   
-  #formatazzione matrice e rename
+  #formattazione matrice e rename
   dataConfMat= data.frame(confusionMat$table)
   colnames(dataConfMat)[1]=("Prediction")
   colnames(dataConfMat)[2]=("Target")
