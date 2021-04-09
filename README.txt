@@ -1,10 +1,7 @@
-Nicolae Alexandru Andrei Matricola 829570
-Andrea Premate Matricola 829777
-
 Link dataset: https://archive.ics.uci.edu/ml/datasets/HTRU2
 
 
-!!! Se si utilizza un sistema a 64-bit è neccesario avere java-64bit installato sulla macchina per la scrittura dei
+!!! Se si utilizza un sistema a 64-bit Ã¨ neccesario avere java-64bit installato sulla macchina per la scrittura dei
 file contenenti i risultati in formato .xlsx !!!
 
 Per avviare il progetto avviare il filre Start.R situato nella cartella R_Script
